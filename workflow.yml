@@ -1,0 +1,8 @@
+fastq:
+    class: File
+    path: /home/ec2-user/SRR2584857.fq.gz
+output_filename: best-bam-ever.bam
+reference:
+    class: File
+    path: /home/ec2-user/ecoli-rel606.fa.gz
+threads: 2
